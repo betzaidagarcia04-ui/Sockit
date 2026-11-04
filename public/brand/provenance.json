@@ -1,0 +1,161 @@
+{
+  "source": "/workspace/attachments/b5f158ba-6474-42a8-93d6-005873addfff/SOCKIT_manual_de_identidad.pdf",
+  "assets": [
+    {
+      "asset": "logos/principal",
+      "page": 3,
+      "clip_pt": [
+        96,
+        210,
+        405,
+        285
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148078
+    },
+    {
+      "asset": "logos/fondo-oscuro",
+      "page": 3,
+      "clip_pt": [
+        484,
+        210,
+        793,
+        285
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148252
+    },
+    {
+      "asset": "logos/monocromatico-borgona",
+      "page": 3,
+      "clip_pt": [
+        872,
+        210,
+        1181,
+        285
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148406
+    },
+    {
+      "asset": "logos/monocromatico-crema",
+      "page": 3,
+      "clip_pt": [
+        96,
+        416,
+        405,
+        491
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148219
+    },
+    {
+      "asset": "logos/compacto",
+      "page": 3,
+      "clip_pt": [
+        484,
+        416,
+        793,
+        491
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148393
+    },
+    {
+      "asset": "logos/neutro-carbon",
+      "page": 3,
+      "clip_pt": [
+        872,
+        416,
+        1181,
+        491
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148547
+    },
+    {
+      "asset": "patterns/costillas",
+      "page": 7,
+      "clip_pt": [
+        64,
+        160,
+        440,
+        382
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 159808
+    },
+    {
+      "asset": "patterns/talon-punta",
+      "page": 7,
+      "clip_pt": [
+        452,
+        160,
+        828,
+        382
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 160101
+    },
+    {
+      "asset": "patterns/monograma",
+      "page": 7,
+      "clip_pt": [
+        840,
+        160,
+        1216,
+        382
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 160055
+    },
+    {
+      "asset": "patterns/sello-puntadas",
+      "page": 7,
+      "clip_pt": [
+        64,
+        414,
+        440,
+        636
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 160069
+    },
+    {
+      "asset": "patterns/banda-empaque",
+      "page": 7,
+      "clip_pt": [
+        452,
+        414,
+        828,
+        636
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 160362
+    },
+    {
+      "asset": "patterns/bloques-color",
+      "page": 7,
+      "clip_pt": [
+        840,
+        414,
+        1216,
+        636
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 160316
+    },
+    {
+      "asset": "icons/isotipo",
+      "page": 3,
+      "clip_pt": [
+        350,
+        212,
+        402,
+        282
+      ],
+      "method": "PDF vector extraction with clipping; original colors and backgrounds preserved",
+      "svg_bytes": 148215
+    }
+  ]
+}

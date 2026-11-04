@@ -1,0 +1,54 @@
+{
+  "name": "sockit-business-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "setup:local": "node scripts/setup-local.mjs",
+    "demo": "node scripts/demo.mjs",
+    "demo:seed": "node scripts/demo.mjs --seed-only"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.15",
+    "@fontsource/dm-sans": "5.3.0",
+    "@fontsource/fraunces": "5.3.0",
+    "@fontsource/instrument-serif": "5.3.0",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0",
+    "jspdf": "4.2.1",
+    "jspdf-autotable": "5.0.9",
+    "leaflet": "1.9.4",
+    "lucide-react": "1.67.0",
+    "motion": "14.9.0",
+    "next": "16.4.5",
+    "papaparse": "5.7.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-leaflet": "5.0.0",
+    "read-excel-file": "9.3.14",
+    "recharts": "3.10.1",
+    "write-excel-file": "4.1.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@tailwindcss/postcss": "4.3.4",
+    "@types/leaflet": "1.9.22",
+    "@types/node": "26.6.6",
+    "@types/papaparse": "5.5.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "svgo": "4.1.0",
+    "tailwindcss": "4.3.4",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
