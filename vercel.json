@@ -1,0 +1,5 @@
+{
+  "$schema":"https://openapi.vercel.sh/vercel.json",
+  "framework":"nextjs",
+  "ignoreCommand":"node scripts/check-deployment.mjs"
+}

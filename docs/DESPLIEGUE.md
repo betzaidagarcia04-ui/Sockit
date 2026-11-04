@@ -43,6 +43,13 @@ a las migraciones de producción.
 
 ## Vercel
 
+`vercel.json` configura un paso de ignorar compilación que bloquea por defecto
+los despliegues automáticos. Tras autorización explícita de prueba, configurar
+`SOCKIT_PREVIEW_APPROVED=true` solo en Preview. La producción permanece bloqueada
+hasta autorización posterior y `SOCKIT_PRODUCTION_APPROVED=true` solo en Production,
+con `SOCKIT_DEMO_MODE=false`. No omitir este control ni forzar despliegues sin permiso.
+La semántica está documentada por Vercel: salida 0 omite; salida 1 continúa.
+
 Framework: Next.js. Carpeta raíz: raíz del repositorio. Node.js 24. Instalación:
 `npm ci`. Compilación: `npm run build`. Usar los valores de cada entorno, no el modo
 local/PGlite: el disco de una función de Vercel no es la base de datos persistente.
