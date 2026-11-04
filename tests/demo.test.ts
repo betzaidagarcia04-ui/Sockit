@@ -21,4 +21,7 @@ test('Vercel omite despliegues no autorizados y nunca promueve demo a producció
  assert.equal(check({VERCEL_ENV:'production',SOCKIT_PRODUCTION_APPROVED:'true',SOCKIT_DEMO_MODE:'true'}),0);
  assert.equal(check({VERCEL_ENV:'preview',SOCKIT_PREVIEW_APPROVED:'true'}),1);
  assert.equal(check({VERCEL_ENV:'production',SOCKIT_PRODUCTION_APPROVED:'true',SOCKIT_DEMO_MODE:'false'}),1);
+ assert.equal(check({VERCEL_ENV:'production',SOCKIT_PREVIEW_APPROVED:'true',SOCKIT_DEMO_MODE:'true'}),0);
+ assert.equal(check({VERCEL_ENV:'preview',SOCKIT_PRODUCTION_APPROVED:'true'}),0);
+ assert.equal(check({VERCEL_ENV:'development',SOCKIT_PREVIEW_APPROVED:'true'}),0);
 });
